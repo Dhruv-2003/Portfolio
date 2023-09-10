@@ -8,16 +8,12 @@ const navbar = () => {
   return (
     <nav className="w-full flex justify-between items-center py-1 px-2 bg-white/[0.25] backdrop-blur-sm border border-solid border-white/[0.18] fixed z-2">
       <div className="flex justify-start items-center">
-        <Image
-          className="w-50 h-15 lg:w-100  lg:h-40"
-          src={images.logo}
-          alt="logo"
-        />
+        <Image src={images.logo} alt="logo" />
       </div>
       <ul className="flex-1 flex items-center justify-center list-none">
         {["home", "about", "work", "skills", "contact"].map((item) => (
           <li
-            className="group mx-1 text-left text-lg lg:text-2xl leading-5 text-[#6b7688] cursor-pointer flex-col flex justify-center items-center"
+            className="group mx-4 text-left text-lg lg:text-2xl leading-5 text-[#6b7688] cursor-pointer flex-col flex justify-center items-center"
             key={`link-${item}`}
           >
             <div className="w-1.5 h-1.5 bg-transparent mb-5 group-hover:bg-[#313bac] rounded" />
