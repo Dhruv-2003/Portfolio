@@ -1,6 +1,7 @@
 import React from 'react';
 import { NavigationDots, SocialMedia } from '../components';
 
+// prettier-ignore
 const AppWrap = (Component, idName, classNames) => function HOC() {
   return (
     <div id={idName} className={`app__container ${classNames}`}>
@@ -9,7 +10,7 @@ const AppWrap = (Component, idName, classNames) => function HOC() {
         <Component />
 
         <div className="copyright">
-          <p className="p-text">@2020 MICHAEL</p>
+          <p className="p-text">@2023 DHRUV</p>
           <p className="p-text">All rights reserved</p>
         </div>
       </div>
