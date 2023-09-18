@@ -8,7 +8,6 @@ export default {
       title: 'Title',
       type: 'string',
     },
-
     {
       name: 'description',
       title: 'Description',
@@ -32,7 +31,6 @@ export default {
         hotspot: true,
       },
     },
-
     {
       name: 'tags',
       title: 'Tags',
@@ -41,6 +39,35 @@ export default {
         {
           name: 'tag',
           title: 'Tag',
+          type: 'string',
+        },
+      ],
+    },
+    {
+      name: 'hackathon',
+      title: 'Hackathon',
+      type: 'string',
+    },
+    {
+      name: 'bounties',
+      title: 'Bounties',
+      type: 'array',
+      of: [
+        {
+          name: 'bounty',
+          title: 'Bounty',
+          type: 'string',
+        },
+      ],
+    },
+    {
+      name: 'protocols',
+      title: 'Protocol',
+      type: 'array',
+      of: [
+        {
+          name: 'protocol',
+          title: 'Protocol',
           type: 'string',
         },
       ],
