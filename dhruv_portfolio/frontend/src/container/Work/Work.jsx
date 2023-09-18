@@ -19,7 +19,7 @@ const Work = () => {
       // Sort the array by creation , and display top 6
       console.log(data);
       setWorks(data);
-      setFilterWork(data.slice(0, 6));
+      setFilterWork(data.slice(0, 3));
     });
   }, []);
 
@@ -47,7 +47,7 @@ const Work = () => {
 
       <div className="app__work-filter">
         {[
-          'Most Impressive',
+          'Most impressive',
           'Smart Contracts',
           'Web3 devlopement',
           'Backend',

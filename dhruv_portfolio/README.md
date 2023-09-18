@@ -19,3 +19,8 @@ Fields to add in project
 - Date added or built (filter by date and show top 3 projects) from createdAt
 - Most impressive , just used directly from Tags
 - Protocols
+
+Field for Experiences
+
+- Date
+- Duration
